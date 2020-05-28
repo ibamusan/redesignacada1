@@ -1,0 +1,52 @@
+
+// Banner
+
+.banner{
+  
+ 
+  &__heading{
+    text-transform: uppercase;
+    letter-spacing: 4.5rem;
+    font-size: 7rem;
+    animation-name: moveInBottom;
+    animation-duration: 5s;
+    
+
+  }
+
+  &__text{
+    font-size: 2.2rem;
+    letter-spacing: .2rem;
+    margin-top: 3rem;
+    font-style: italic;
+    animation-name: moveInBottom;
+    animation-duration: 5s;
+
+    span{
+      color: var(--color-primary-light);
+    }
+
+    &--sub{
+      font-size: 2rem;
+      color: var(--color-primary-light);
+      position: absolute;
+      top: 9.5rem;
+      right: 5rem;
+      font-style: italic;
+      animation-name: moveInBottom;
+      animation-duration: 5s;
+    
+    }
+   
+  }
+
+   &__button{
+     margin-top: 5rem;
+     position: absolute;
+     top: 50%;
+     left: 40%;
+     animation-name: moveInBottom;
+     animation-duration: 5s;
+   }
+
+}

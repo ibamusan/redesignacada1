@@ -2,7 +2,7 @@
   max-width: 1250px;
   min-height: 100vh;
   margin: 10rem auto;
-  background-color: #fff;
+  background-color: var(--color-grey-light-3);
   border-radius: 1rem;
   box-shadow: var(--shadow-light);
 
@@ -13,4 +13,97 @@ header{
   background-size: cover;
   background-position: center;
   height: 70vh;
+  position: relative;
 }
+
+.banner{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.section-about{
+  max-width: 1200px;
+  min-height: 60vh;
+  margin: 5rem auto;
+
+  &__heading{
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 2rem;
+
+    span{
+      color: var(--color-primary);
+    }
+
+  }
+
+  &__content{
+    display: flex;
+    
+
+    &--intro{
+      flex: 0 0 20%;
+      background-color: #fff;
+      min-height: 20vh;
+      margin: 2rem;
+      box-shadow: var(--shadow-light);
+    }
+
+    &--value{
+      flex: 1;
+      background-color: #fff;
+      margin: 2rem;
+      box-shadow: var(--shadow-light);
+    }
+
+    &--paragraph{
+      font-size: 1.8rem;
+      font-weight: 300;
+      padding: 2rem 3rem;
+      text-align: left;
+
+      span{
+        font-size: 3.5rem;
+        color: var(--color-primary);
+        font-style: italic;
+      }
+
+    }
+  }
+
+}
+
+.section-features{
+  max-width: 1200px;
+  min-height: 60vh;
+  margin: 10rem auto;
+  background-image: linear-gradient(to right bottom, rgba($color-grey-light-1, .3), rgba($color-grey-light-1, .3)),url(/img/software_section.png);
+  // background-image: url(/img/image2.jpg);
+  background-position: center;
+  background-size: cover;
+
+  &__heading{
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 2rem;
+
+    span{
+      color: var(--color-primary);
+    }
+
+  }
+
+  &__sub-heading{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-grey-light-3);
+    
+  }
+}
+
