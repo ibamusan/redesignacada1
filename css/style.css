@@ -469,7 +469,7 @@ header {
   max-width: 1200px;
   min-height: 60vh;
   margin: 10rem auto;
-  background-image: linear-gradient(to right bottom, rgba(247, 247, 247, 0.3), rgba(247, 247, 247, 0.3)), url(/img/software_section.png);
+  background-image: linear-gradient(to right bottom, rgba(247, 247, 247, 0.3), rgba(247, 247, 247, 0.3)), url(../img/software_section.png);
   background-position: center;
   background-size: cover; }
   .section-features__heading {
