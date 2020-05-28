@@ -22,20 +22,20 @@
       width: 6rem;
       fill: var(--color-primary);
       padding-top: 1rem;
-      margin-bottom: 2rem;
+      margin-bottom: 5px;
     }
 
     &--tittle{
-      font-size: 2.3rem;
+      font-size: 16px;
       font-weight: 600;
-      margin-bottom: 1rem;
+      margin-bottom: 5px;
       // color: var(--color-primary);
     }
 
     &--body{
-      font-size: 1.5rem;
+      font-size: 11px;
       font-weight: 300;
-      margin-bottom: 2rem;
+      margin-bottom: 5px;
     }
 
     &:hover{
